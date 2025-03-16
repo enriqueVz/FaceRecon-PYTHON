@@ -18,7 +18,7 @@ imagen_referencia = cv2.imread("/Users/kikon/IA PROJECTS/FACE RECOGNITION/refere
 def check_cara(frame):
     global cara_match
     try:
-        if DeepFace.verify(frame, imagen_referencia.copy())['verified']:
+        if DeepFace.verify(frame, imagen_referencia.copy(), model_name="Facenet")['verified']:
             cara_match = True
         else:
             cara_match = False
