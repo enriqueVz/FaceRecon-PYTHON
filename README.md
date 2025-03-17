@@ -11,6 +11,6 @@ Funciona de la siguiente manera:
 
 Para probar el proyecto:
 
-1) Instala las dependencias requeridas mediante: **pip install opencv-python deepface**
+1) Instala las dependencias requeridas mediante: **pip install opencv-python deepface**.
 2) Añade un "selfie" (en formato .jpg) y almacena su ruta en la variable **"imagen_referencia"**.
-3) Ejecuta el archivo desde la terminal: **Python3 "/Ruta/a/tu/carpeta/main.py"**
+3) Ejecuta el archivo desde la terminal: **Python3 "/Ruta/a/tu/carpeta/main.py"**.
